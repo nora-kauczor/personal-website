@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkkhaki;
+  font-family: arial;
+  color: grey;
+  position: relative;
+  padding: 50px;
+}
+
+nav {
+  position: sticky;
+  top: 10px;
+}
+
+h1 {
+  position: sticky;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+.erstes-kapitel {
+  position: absolute;
+  z-index: 10;
+}
+
+.zweites-kapitel {
+  position: absolute;
+}
+
+.drittes-kapitel {
+  position: absolute;
+}
+
+aside {
+  position: absolute;
+  left: 250%;
+  background-color: white;
+  color: darkblue;
+}
+
+.flexbox {
+}
+
+p {
+  position: absolute;
+}
+
+figure {
+  position: absolute;
+  left: 50%;
+}
+
+img {
+  width: 80%;
+}
+
+#lizard {
+  position: absolute;
+  left: 100%;
+}
+
+figcaption {
+  position: absolute;
+  left: 20%;
+}
+
+footer {
+  positon: absolute;
+  bottom: 0;
+}
