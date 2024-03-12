@@ -3,74 +3,33 @@
 }
 
 body {
-  background-color: darkkhaki;
-  font-family: arial;
-  color: grey;
   position: relative;
-  padding: 50px;
 }
 
-nav {
-  position: sticky;
-  top: 10px;
+ul {
+  list-style-type: none;
 }
 
-h1 {
-  position: sticky;
-}
-
-a {
-  color: grey;
-  text-decoration: none;
-}
-
-.erstes-kapitel {
-  position: absolute;
-  z-index: 10;
-}
-
-.zweites-kapitel {
-  position: absolute;
-}
-
-.drittes-kapitel {
-  position: absolute;
-}
-
-aside {
-  position: absolute;
-  left: 250%;
-  background-color: white;
-  color: darkblue;
-}
-
-.flexbox {
-}
-
-p {
-  position: absolute;
-}
-
-figure {
-  position: absolute;
-  left: 50%;
-}
-
-img {
-  width: 80%;
-}
-
+#alligator,
+#leopard-gecko,
 #lizard {
+  width: 200px;
+}
+#alligator-figure {
   position: absolute;
-  left: 100%;
+  right: 0;
+}
+#leopard-figure {
+  position: absolute;
+  right: 300px;
+}
+#lizard-figure {
+  position: absolute;
+  left: 0;
 }
 
-figcaption {
-  position: absolute;
-  left: 20%;
-}
+.zweites-kapitel {position: absolute; bottom: 0;}
 
-footer {
-  positon: absolute;
-  bottom: 0;
-}
+.zweites-kapitel {display: flex; flex-direction: reverse-row;}
+
+.drittes-kapitel {display: none;}
