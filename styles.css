@@ -1,0 +1,17 @@
+body {
+  background-color:#F9F5D4 ;
+  font-family: futura;
+}
+
+/* #ede2e8, #DEE8D2, #c6e5c1*, #EAD2D0/, #EBC0B9, #F9F9F0
+
+h1 {
+  margin-left: 50px;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
